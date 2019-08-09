@@ -1,0 +1,768 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07A0817141E7AE6CCD772E4DE5B712C0 /* Pods-ISJMuDaoModule_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C3379E741718A2110F6D17B011AA9BE3 /* Pods-ISJMuDaoModule_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0AD09A473F52DE3074A792DED6B5CA32 /* Pods-ISJMuDaoModule_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5000C5D54AE5756A62E72DAADF4B4B0F /* Pods-ISJMuDaoModule_Example-dummy.m */; };
+		2B8EB4DE2B02414D85DEA68CB51502F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		309FE5B87186F46F02E45DB9704CAF83 /* ISJMuDaoModule-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C95BFAAA8F1636D4DDB6FD1A456855DB /* ISJMuDaoModule-dummy.m */; };
+		4F4C7BD6BAF4C9C0CC87EBA3AAA2055B /* Pods-ISJMuDaoModule_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A72A4F89536F1215896C137A07791B0 /* Pods-ISJMuDaoModule_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		769ED83EE7F57E2F73CC2AF7D164F303 /* ISJMuDaoModule-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 964B602311741E97DBF6CBB33476E619 /* ISJMuDaoModule-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C95D8975B38C19F9724932DD83B2FEB /* Pods-ISJMuDaoModule_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7179FA765380B857A76F8D23D234B36A /* Pods-ISJMuDaoModule_Tests-dummy.m */; };
+		A0E4F81C34CC92FEA6DC36A78D654842 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		CE57E028484027C4BDD5D5DBED436139 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		D5882DDFAE064B085A64BB2572FD04FC /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = F031B1FD46D8D0D8CC2FBFC8448F2650 /* ReplaceMe.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7404B34174B3EE9F1D053EDE2089D571 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62D9DF77DC21018F8E91DA7F38DDCBDB;
+			remoteInfo = "Pods-ISJMuDaoModule_Example";
+		};
+		9004C547510F25E6547100C759DBAECB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B2A3E44DCE1F1F8E42B8F95F032205EF;
+			remoteInfo = ISJMuDaoModule;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18E4CB94C2B240BD2E03200AC18C34E8 /* Pods-ISJMuDaoModule_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ISJMuDaoModule_Example.modulemap"; sourceTree = "<group>"; };
+		1A43C6D8985C4FD0E3BB67DF590B15E2 /* Pods-ISJMuDaoModule_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ISJMuDaoModule_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		1A72A4F89536F1215896C137A07791B0 /* Pods-ISJMuDaoModule_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ISJMuDaoModule_Tests-umbrella.h"; sourceTree = "<group>"; };
+		210F02E9AB1AEFAEB259994EFE825E33 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		2754EBBE291FDB4D14939B5B788BB161 /* Pods_ISJMuDaoModule_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ISJMuDaoModule_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		36BC0BF1C625932CCE5B84898927AABA /* Pods-ISJMuDaoModule_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ISJMuDaoModule_Tests.modulemap"; sourceTree = "<group>"; };
+		43CD4E0190257A66B0DD5CF03A523EF9 /* Pods-ISJMuDaoModule_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ISJMuDaoModule_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		5000C5D54AE5756A62E72DAADF4B4B0F /* Pods-ISJMuDaoModule_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ISJMuDaoModule_Example-dummy.m"; sourceTree = "<group>"; };
+		52C4C371ECDE45A2BE911E708E2EC1FE /* ISJMuDaoModule.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ISJMuDaoModule.xcconfig; sourceTree = "<group>"; };
+		55513AE684F5E10CA80DF2DA22EA0246 /* ISJMuDaoModule.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ISJMuDaoModule.modulemap; sourceTree = "<group>"; };
+		579305D57EB610F5F42A896A5FF4E826 /* Pods-ISJMuDaoModule_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ISJMuDaoModule_Example-Info.plist"; sourceTree = "<group>"; };
+		7179FA765380B857A76F8D23D234B36A /* Pods-ISJMuDaoModule_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ISJMuDaoModule_Tests-dummy.m"; sourceTree = "<group>"; };
+		74969FC508FE48C9261C7D924AF4DF35 /* Pods-ISJMuDaoModule_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ISJMuDaoModule_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		783A1058E3842EC67E182B6D9518B6A9 /* ISJMuDaoModule-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ISJMuDaoModule-Info.plist"; sourceTree = "<group>"; };
+		7AB43DEE2A1B887D9D69F9214EADEB1F /* Pods-ISJMuDaoModule_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ISJMuDaoModule_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		964B602311741E97DBF6CBB33476E619 /* ISJMuDaoModule-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ISJMuDaoModule-umbrella.h"; sourceTree = "<group>"; };
+		980664A07CE583AE1FCA73468BE0015E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		9C86784E61D41F4D3837159EEE3E13E4 /* ISJMuDaoModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ISJMuDaoModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A0C0625FB798E82D3B9382AC956D1820 /* Pods-ISJMuDaoModule_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ISJMuDaoModule_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A3F5119DAB46FC2F379CFDD64743EA99 /* Pods-ISJMuDaoModule_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ISJMuDaoModule_Example-frameworks.sh"; sourceTree = "<group>"; };
+		A7C60CF2D11427731536CEF3853AD11E /* Pods-ISJMuDaoModule_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ISJMuDaoModule_Example.release.xcconfig"; sourceTree = "<group>"; };
+		A8D96F9DEE794304D65006B9343D69B5 /* Pods-ISJMuDaoModule_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ISJMuDaoModule_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C3379E741718A2110F6D17B011AA9BE3 /* Pods-ISJMuDaoModule_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ISJMuDaoModule_Example-umbrella.h"; sourceTree = "<group>"; };
+		C62BD26CC473BA0A5BBB73DF34DC345F /* Pods_ISJMuDaoModule_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ISJMuDaoModule_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C95BFAAA8F1636D4DDB6FD1A456855DB /* ISJMuDaoModule-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ISJMuDaoModule-dummy.m"; sourceTree = "<group>"; };
+		DB6D39E1381400979DEFEA799CCBFB2F /* Pods-ISJMuDaoModule_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ISJMuDaoModule_Tests-Info.plist"; sourceTree = "<group>"; };
+		E43CBFBE9E6C14627461C202AC053E92 /* ISJMuDaoModule.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = ISJMuDaoModule.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		F031B1FD46D8D0D8CC2FBFC8448F2650 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = ISJMuDaoModule/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		F0E471A9F47EC6A71FB127ACBEB0A697 /* Pods-ISJMuDaoModule_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ISJMuDaoModule_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F76601C1B74A99600775FB03A728A30B /* ISJMuDaoModule-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ISJMuDaoModule-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0E9DCE7CE67B15A939C5D3BDF74155FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B8EB4DE2B02414D85DEA68CB51502F5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CF407B37AB9F8A98D0DAB35BD265688 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0E4F81C34CC92FEA6DC36A78D654842 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5419812840DE584193CA8FACFEB2A7B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE57E028484027C4BDD5D5DBED436139 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D796BE8631E322D919CF67AEC7E2F60 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9C86784E61D41F4D3837159EEE3E13E4 /* ISJMuDaoModule.framework */,
+				2754EBBE291FDB4D14939B5B788BB161 /* Pods_ISJMuDaoModule_Example.framework */,
+				C62BD26CC473BA0A5BBB73DF34DC345F /* Pods_ISJMuDaoModule_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		259C8AD72B4A6B1FD89EA5F8E0A4B773 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				55513AE684F5E10CA80DF2DA22EA0246 /* ISJMuDaoModule.modulemap */,
+				52C4C371ECDE45A2BE911E708E2EC1FE /* ISJMuDaoModule.xcconfig */,
+				C95BFAAA8F1636D4DDB6FD1A456855DB /* ISJMuDaoModule-dummy.m */,
+				783A1058E3842EC67E182B6D9518B6A9 /* ISJMuDaoModule-Info.plist */,
+				F76601C1B74A99600775FB03A728A30B /* ISJMuDaoModule-prefix.pch */,
+				964B602311741E97DBF6CBB33476E619 /* ISJMuDaoModule-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ISJMuDaoModule";
+			sourceTree = "<group>";
+		};
+		28BD4E680D99EA699811DD317403AE62 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				E43CBFBE9E6C14627461C202AC053E92 /* ISJMuDaoModule.podspec */,
+				210F02E9AB1AEFAEB259994EFE825E33 /* LICENSE */,
+				980664A07CE583AE1FCA73468BE0015E /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		447EC61B4627C6AEADE9AC884C267BFF /* Pods-ISJMuDaoModule_Example */ = {
+			isa = PBXGroup;
+			children = (
+				18E4CB94C2B240BD2E03200AC18C34E8 /* Pods-ISJMuDaoModule_Example.modulemap */,
+				F0E471A9F47EC6A71FB127ACBEB0A697 /* Pods-ISJMuDaoModule_Example-acknowledgements.markdown */,
+				74969FC508FE48C9261C7D924AF4DF35 /* Pods-ISJMuDaoModule_Example-acknowledgements.plist */,
+				5000C5D54AE5756A62E72DAADF4B4B0F /* Pods-ISJMuDaoModule_Example-dummy.m */,
+				A3F5119DAB46FC2F379CFDD64743EA99 /* Pods-ISJMuDaoModule_Example-frameworks.sh */,
+				579305D57EB610F5F42A896A5FF4E826 /* Pods-ISJMuDaoModule_Example-Info.plist */,
+				C3379E741718A2110F6D17B011AA9BE3 /* Pods-ISJMuDaoModule_Example-umbrella.h */,
+				1A43C6D8985C4FD0E3BB67DF590B15E2 /* Pods-ISJMuDaoModule_Example.debug.xcconfig */,
+				A7C60CF2D11427731536CEF3853AD11E /* Pods-ISJMuDaoModule_Example.release.xcconfig */,
+			);
+			name = "Pods-ISJMuDaoModule_Example";
+			path = "Target Support Files/Pods-ISJMuDaoModule_Example";
+			sourceTree = "<group>";
+		};
+		978B759E7AA8BA2DF45843C3F687DC63 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				447EC61B4627C6AEADE9AC884C267BFF /* Pods-ISJMuDaoModule_Example */,
+				C180EB3B4995C2D6AEA30F9CF5E8BA2F /* Pods-ISJMuDaoModule_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		9C4517056B24DD2DF1936F3C6F19F821 /* ISJMuDaoModule */ = {
+			isa = PBXGroup;
+			children = (
+				F031B1FD46D8D0D8CC2FBFC8448F2650 /* ReplaceMe.m */,
+				28BD4E680D99EA699811DD317403AE62 /* Pod */,
+				259C8AD72B4A6B1FD89EA5F8E0A4B773 /* Support Files */,
+			);
+			name = ISJMuDaoModule;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		BC41EE9735268F725CC4A606490D8FC2 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9C4517056B24DD2DF1936F3C6F19F821 /* ISJMuDaoModule */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C180EB3B4995C2D6AEA30F9CF5E8BA2F /* Pods-ISJMuDaoModule_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				36BC0BF1C625932CCE5B84898927AABA /* Pods-ISJMuDaoModule_Tests.modulemap */,
+				A0C0625FB798E82D3B9382AC956D1820 /* Pods-ISJMuDaoModule_Tests-acknowledgements.markdown */,
+				A8D96F9DEE794304D65006B9343D69B5 /* Pods-ISJMuDaoModule_Tests-acknowledgements.plist */,
+				7179FA765380B857A76F8D23D234B36A /* Pods-ISJMuDaoModule_Tests-dummy.m */,
+				DB6D39E1381400979DEFEA799CCBFB2F /* Pods-ISJMuDaoModule_Tests-Info.plist */,
+				1A72A4F89536F1215896C137A07791B0 /* Pods-ISJMuDaoModule_Tests-umbrella.h */,
+				7AB43DEE2A1B887D9D69F9214EADEB1F /* Pods-ISJMuDaoModule_Tests.debug.xcconfig */,
+				43CD4E0190257A66B0DD5CF03A523EF9 /* Pods-ISJMuDaoModule_Tests.release.xcconfig */,
+			);
+			name = "Pods-ISJMuDaoModule_Tests";
+			path = "Target Support Files/Pods-ISJMuDaoModule_Tests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				BC41EE9735268F725CC4A606490D8FC2 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				1D796BE8631E322D919CF67AEC7E2F60 /* Products */,
+				978B759E7AA8BA2DF45843C3F687DC63 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1370507036B0806945D4A89CDCB57B6C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F4C7BD6BAF4C9C0CC87EBA3AAA2055B /* Pods-ISJMuDaoModule_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51FE6F245AF61E5773A3C241F9A76D93 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07A0817141E7AE6CCD772E4DE5B712C0 /* Pods-ISJMuDaoModule_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE04DEC607FAEE08223886ACA8EB6D43 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				769ED83EE7F57E2F73CC2AF7D164F303 /* ISJMuDaoModule-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		62D9DF77DC21018F8E91DA7F38DDCBDB /* Pods-ISJMuDaoModule_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3C37054B438482A7961A388C0666912 /* Build configuration list for PBXNativeTarget "Pods-ISJMuDaoModule_Example" */;
+			buildPhases = (
+				51FE6F245AF61E5773A3C241F9A76D93 /* Headers */,
+				8415E507A3611E01889EEA04507DFBBF /* Sources */,
+				2CF407B37AB9F8A98D0DAB35BD265688 /* Frameworks */,
+				CDBBBC727C472E4FF599788A666571EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B400F3C7B3A1046DBED1AA0EC945F0FE /* PBXTargetDependency */,
+			);
+			name = "Pods-ISJMuDaoModule_Example";
+			productName = "Pods-ISJMuDaoModule_Example";
+			productReference = 2754EBBE291FDB4D14939B5B788BB161 /* Pods_ISJMuDaoModule_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		800380B427346B1623B82950AA7F5501 /* Pods-ISJMuDaoModule_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B739301783B0C57D96F4D2831199305 /* Build configuration list for PBXNativeTarget "Pods-ISJMuDaoModule_Tests" */;
+			buildPhases = (
+				1370507036B0806945D4A89CDCB57B6C /* Headers */,
+				14E11F8A93944CF5FC192C1B9B92F758 /* Sources */,
+				5419812840DE584193CA8FACFEB2A7B8 /* Frameworks */,
+				FFC225FDB00AD40A7AA5A04618AAD91A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				38E350D3B2221004EB1FE6A1706D4A4A /* PBXTargetDependency */,
+			);
+			name = "Pods-ISJMuDaoModule_Tests";
+			productName = "Pods-ISJMuDaoModule_Tests";
+			productReference = C62BD26CC473BA0A5BBB73DF34DC345F /* Pods_ISJMuDaoModule_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B2A3E44DCE1F1F8E42B8F95F032205EF /* ISJMuDaoModule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF6D162635E3C8CBA73123551486C984 /* Build configuration list for PBXNativeTarget "ISJMuDaoModule" */;
+			buildPhases = (
+				BE04DEC607FAEE08223886ACA8EB6D43 /* Headers */,
+				626260ADDEF8B297C0867DCC68522E99 /* Sources */,
+				0E9DCE7CE67B15A939C5D3BDF74155FB /* Frameworks */,
+				9F964BA31454ADEB48B21F260710CC88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ISJMuDaoModule;
+			productName = ISJMuDaoModule;
+			productReference = 9C86784E61D41F4D3837159EEE3E13E4 /* ISJMuDaoModule.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 1D796BE8631E322D919CF67AEC7E2F60 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B2A3E44DCE1F1F8E42B8F95F032205EF /* ISJMuDaoModule */,
+				62D9DF77DC21018F8E91DA7F38DDCBDB /* Pods-ISJMuDaoModule_Example */,
+				800380B427346B1623B82950AA7F5501 /* Pods-ISJMuDaoModule_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9F964BA31454ADEB48B21F260710CC88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDBBBC727C472E4FF599788A666571EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFC225FDB00AD40A7AA5A04618AAD91A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		14E11F8A93944CF5FC192C1B9B92F758 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C95D8975B38C19F9724932DD83B2FEB /* Pods-ISJMuDaoModule_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		626260ADDEF8B297C0867DCC68522E99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				309FE5B87186F46F02E45DB9704CAF83 /* ISJMuDaoModule-dummy.m in Sources */,
+				D5882DDFAE064B085A64BB2572FD04FC /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8415E507A3611E01889EEA04507DFBBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AD09A473F52DE3074A792DED6B5CA32 /* Pods-ISJMuDaoModule_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		38E350D3B2221004EB1FE6A1706D4A4A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ISJMuDaoModule_Example";
+			target = 62D9DF77DC21018F8E91DA7F38DDCBDB /* Pods-ISJMuDaoModule_Example */;
+			targetProxy = 7404B34174B3EE9F1D053EDE2089D571 /* PBXContainerItemProxy */;
+		};
+		B400F3C7B3A1046DBED1AA0EC945F0FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ISJMuDaoModule;
+			target = B2A3E44DCE1F1F8E42B8F95F032205EF /* ISJMuDaoModule */;
+			targetProxy = 9004C547510F25E6547100C759DBAECB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		37C5D6C166F8AB04F3FC5E46A12AD0AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43CD4E0190257A66B0DD5CF03A523EF9 /* Pods-ISJMuDaoModule_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ISJMuDaoModule_Tests/Pods-ISJMuDaoModule_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ISJMuDaoModule_Tests/Pods-ISJMuDaoModule_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		37D96F45ED616A18BEA811FEB3DEF0FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7C60CF2D11427731536CEF3853AD11E /* Pods-ISJMuDaoModule_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ISJMuDaoModule_Example/Pods-ISJMuDaoModule_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ISJMuDaoModule_Example/Pods-ISJMuDaoModule_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		49AAEF4D6D3638E4666A0437BBFF4CC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52C4C371ECDE45A2BE911E708E2EC1FE /* ISJMuDaoModule.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ISJMuDaoModule/ISJMuDaoModule-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ISJMuDaoModule/ISJMuDaoModule-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ISJMuDaoModule/ISJMuDaoModule.modulemap";
+				PRODUCT_MODULE_NAME = ISJMuDaoModule;
+				PRODUCT_NAME = ISJMuDaoModule;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		8A9220A7042F5D491CC4F2490593BD83 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AB43DEE2A1B887D9D69F9214EADEB1F /* Pods-ISJMuDaoModule_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ISJMuDaoModule_Tests/Pods-ISJMuDaoModule_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ISJMuDaoModule_Tests/Pods-ISJMuDaoModule_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B411FF2CA73B4452A4E2FEDEE8B47A30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A43C6D8985C4FD0E3BB67DF590B15E2 /* Pods-ISJMuDaoModule_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ISJMuDaoModule_Example/Pods-ISJMuDaoModule_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ISJMuDaoModule_Example/Pods-ISJMuDaoModule_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D845CF63A707FD56E1EEEE5DACFCAA8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52C4C371ECDE45A2BE911E708E2EC1FE /* ISJMuDaoModule.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ISJMuDaoModule/ISJMuDaoModule-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ISJMuDaoModule/ISJMuDaoModule-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ISJMuDaoModule/ISJMuDaoModule.modulemap";
+				PRODUCT_MODULE_NAME = ISJMuDaoModule;
+				PRODUCT_NAME = ISJMuDaoModule;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B739301783B0C57D96F4D2831199305 /* Build configuration list for PBXNativeTarget "Pods-ISJMuDaoModule_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A9220A7042F5D491CC4F2490593BD83 /* Debug */,
+				37C5D6C166F8AB04F3FC5E46A12AD0AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3C37054B438482A7961A388C0666912 /* Build configuration list for PBXNativeTarget "Pods-ISJMuDaoModule_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B411FF2CA73B4452A4E2FEDEE8B47A30 /* Debug */,
+				37D96F45ED616A18BEA811FEB3DEF0FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF6D162635E3C8CBA73123551486C984 /* Build configuration list for PBXNativeTarget "ISJMuDaoModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49AAEF4D6D3638E4666A0437BBFF4CC9 /* Debug */,
+				D845CF63A707FD56E1EEEE5DACFCAA8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

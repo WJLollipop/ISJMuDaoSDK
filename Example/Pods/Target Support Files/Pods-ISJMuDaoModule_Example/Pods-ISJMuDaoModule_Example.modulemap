@@ -1,0 +1,6 @@
+framework module Pods_ISJMuDaoModule_Example {
+  umbrella header "Pods-ISJMuDaoModule_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

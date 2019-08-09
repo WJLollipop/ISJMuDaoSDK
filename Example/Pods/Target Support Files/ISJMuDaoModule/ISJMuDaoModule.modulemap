@@ -1,0 +1,6 @@
+framework module ISJMuDaoModule {
+  umbrella header "ISJMuDaoModule-umbrella.h"
+
+  export *
+  module * { export * }
+}
