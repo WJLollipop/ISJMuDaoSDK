@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ISJMuDaoModule'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = '花吧SDK&&借吧SDK'
 
 # This description is used to generate tags and improve search results.
@@ -30,7 +30,9 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'ISJMuDaoModule/Classes/**/*'
+  # s.source_files = 'ISJMuDaoModule/Classes/**/*'
+  s.vendored_frameworks = 'ISJMuDaoModule/Classes/*.{framework}'
+  s.resource = 'ISJMuDaoModule/Assets/FanbeiCreditSDKResource.bundle'
   
   # s.resource_bundles = {
   #   'ISJMuDaoModule' => ['ISJMuDaoModule/Assets/*.png']

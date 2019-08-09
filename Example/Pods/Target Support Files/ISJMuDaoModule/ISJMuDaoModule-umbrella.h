@@ -10,6 +10,8 @@
 #endif
 #endif
 
+#import "FanbeiCreditManager.h"
+#import "FanbeiCreditSDK.h"
 
 FOUNDATION_EXPORT double ISJMuDaoModuleVersionNumber;
 FOUNDATION_EXPORT const unsigned char ISJMuDaoModuleVersionString[];

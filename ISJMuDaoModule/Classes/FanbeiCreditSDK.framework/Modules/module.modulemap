@@ -1,0 +1,6 @@
+framework module FanbeiCreditSDK {
+  umbrella header "FanbeiCreditSDK.h"
+
+  export *
+  module * { export * }
+}

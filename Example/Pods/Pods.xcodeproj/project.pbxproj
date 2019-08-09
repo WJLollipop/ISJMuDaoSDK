@@ -6,17 +6,25 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		B2A3E44DCE1F1F8E42B8F95F032205EF /* ISJMuDaoModule */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = F092D9175E9A98C56E1FB11AEF66336F /* Build configuration list for PBXAggregateTarget "ISJMuDaoModule" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = ISJMuDaoModule;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
-		07A0817141E7AE6CCD772E4DE5B712C0 /* Pods-ISJMuDaoModule_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C3379E741718A2110F6D17B011AA9BE3 /* Pods-ISJMuDaoModule_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0AD09A473F52DE3074A792DED6B5CA32 /* Pods-ISJMuDaoModule_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5000C5D54AE5756A62E72DAADF4B4B0F /* Pods-ISJMuDaoModule_Example-dummy.m */; };
-		2B8EB4DE2B02414D85DEA68CB51502F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		309FE5B87186F46F02E45DB9704CAF83 /* ISJMuDaoModule-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C95BFAAA8F1636D4DDB6FD1A456855DB /* ISJMuDaoModule-dummy.m */; };
+		07A0817141E7AE6CCD772E4DE5B712C0 /* Pods-ISJMuDaoModule_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A5C562B7146C1CD4D9EEB5340831D5CC /* Pods-ISJMuDaoModule_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0AD09A473F52DE3074A792DED6B5CA32 /* Pods-ISJMuDaoModule_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DE63FC668BC8A0AC70CAA6642708738A /* Pods-ISJMuDaoModule_Example-dummy.m */; };
 		4F4C7BD6BAF4C9C0CC87EBA3AAA2055B /* Pods-ISJMuDaoModule_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A72A4F89536F1215896C137A07791B0 /* Pods-ISJMuDaoModule_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		769ED83EE7F57E2F73CC2AF7D164F303 /* ISJMuDaoModule-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 964B602311741E97DBF6CBB33476E619 /* ISJMuDaoModule-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7C95D8975B38C19F9724932DD83B2FEB /* Pods-ISJMuDaoModule_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7179FA765380B857A76F8D23D234B36A /* Pods-ISJMuDaoModule_Tests-dummy.m */; };
 		A0E4F81C34CC92FEA6DC36A78D654842 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		CE57E028484027C4BDD5D5DBED436139 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		D5882DDFAE064B085A64BB2572FD04FC /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = F031B1FD46D8D0D8CC2FBFC8448F2650 /* ReplaceMe.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,49 +45,36 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		18E4CB94C2B240BD2E03200AC18C34E8 /* Pods-ISJMuDaoModule_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ISJMuDaoModule_Example.modulemap"; sourceTree = "<group>"; };
-		1A43C6D8985C4FD0E3BB67DF590B15E2 /* Pods-ISJMuDaoModule_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ISJMuDaoModule_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		1A72A4F89536F1215896C137A07791B0 /* Pods-ISJMuDaoModule_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ISJMuDaoModule_Tests-umbrella.h"; sourceTree = "<group>"; };
-		210F02E9AB1AEFAEB259994EFE825E33 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		2754EBBE291FDB4D14939B5B788BB161 /* Pods_ISJMuDaoModule_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ISJMuDaoModule_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		206D575D40854C6BF37EA2B2D7D05C59 /* Pods-ISJMuDaoModule_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ISJMuDaoModule_Example-resources.sh"; sourceTree = "<group>"; };
+		2754EBBE291FDB4D14939B5B788BB161 /* Pods_ISJMuDaoModule_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ISJMuDaoModule_Example.framework; path = "Pods-ISJMuDaoModule_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		36BC0BF1C625932CCE5B84898927AABA /* Pods-ISJMuDaoModule_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ISJMuDaoModule_Tests.modulemap"; sourceTree = "<group>"; };
+		3EB1C3DEB9D5FEEFD7366550AD77F8F2 /* ISJMuDaoModule.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ISJMuDaoModule.xcconfig; sourceTree = "<group>"; };
+		3FAEE843A4D6CB018FF8CAEC3EE91061 /* Pods-ISJMuDaoModule_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ISJMuDaoModule_Example.modulemap"; sourceTree = "<group>"; };
 		43CD4E0190257A66B0DD5CF03A523EF9 /* Pods-ISJMuDaoModule_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ISJMuDaoModule_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		5000C5D54AE5756A62E72DAADF4B4B0F /* Pods-ISJMuDaoModule_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ISJMuDaoModule_Example-dummy.m"; sourceTree = "<group>"; };
-		52C4C371ECDE45A2BE911E708E2EC1FE /* ISJMuDaoModule.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ISJMuDaoModule.xcconfig; sourceTree = "<group>"; };
-		55513AE684F5E10CA80DF2DA22EA0246 /* ISJMuDaoModule.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ISJMuDaoModule.modulemap; sourceTree = "<group>"; };
-		579305D57EB610F5F42A896A5FF4E826 /* Pods-ISJMuDaoModule_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ISJMuDaoModule_Example-Info.plist"; sourceTree = "<group>"; };
 		7179FA765380B857A76F8D23D234B36A /* Pods-ISJMuDaoModule_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ISJMuDaoModule_Tests-dummy.m"; sourceTree = "<group>"; };
-		74969FC508FE48C9261C7D924AF4DF35 /* Pods-ISJMuDaoModule_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ISJMuDaoModule_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		783A1058E3842EC67E182B6D9518B6A9 /* ISJMuDaoModule-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ISJMuDaoModule-Info.plist"; sourceTree = "<group>"; };
+		7630A6246B1174F627F37CD0E44F9E26 /* Pods-ISJMuDaoModule_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ISJMuDaoModule_Example.release.xcconfig"; sourceTree = "<group>"; };
 		7AB43DEE2A1B887D9D69F9214EADEB1F /* Pods-ISJMuDaoModule_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ISJMuDaoModule_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		964B602311741E97DBF6CBB33476E619 /* ISJMuDaoModule-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ISJMuDaoModule-umbrella.h"; sourceTree = "<group>"; };
-		980664A07CE583AE1FCA73468BE0015E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		9C86784E61D41F4D3837159EEE3E13E4 /* ISJMuDaoModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ISJMuDaoModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93CDDA2885503E1CEA1E23588F6D418A /* FanbeiCreditSDKResource.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = FanbeiCreditSDKResource.bundle; path = ISJMuDaoModule/Assets/FanbeiCreditSDKResource.bundle; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A0C0625FB798E82D3B9382AC956D1820 /* Pods-ISJMuDaoModule_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ISJMuDaoModule_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		A3F5119DAB46FC2F379CFDD64743EA99 /* Pods-ISJMuDaoModule_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ISJMuDaoModule_Example-frameworks.sh"; sourceTree = "<group>"; };
-		A7C60CF2D11427731536CEF3853AD11E /* Pods-ISJMuDaoModule_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ISJMuDaoModule_Example.release.xcconfig"; sourceTree = "<group>"; };
+		A5C562B7146C1CD4D9EEB5340831D5CC /* Pods-ISJMuDaoModule_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ISJMuDaoModule_Example-umbrella.h"; sourceTree = "<group>"; };
 		A8D96F9DEE794304D65006B9343D69B5 /* Pods-ISJMuDaoModule_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ISJMuDaoModule_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		C3379E741718A2110F6D17B011AA9BE3 /* Pods-ISJMuDaoModule_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ISJMuDaoModule_Example-umbrella.h"; sourceTree = "<group>"; };
-		C62BD26CC473BA0A5BBB73DF34DC345F /* Pods_ISJMuDaoModule_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ISJMuDaoModule_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C95BFAAA8F1636D4DDB6FD1A456855DB /* ISJMuDaoModule-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ISJMuDaoModule-dummy.m"; sourceTree = "<group>"; };
+		ACFCA28D412917130AAA5E90F0B7E7E5 /* Pods-ISJMuDaoModule_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ISJMuDaoModule_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B2E4AB862D4613B51BBEB95479E10F71 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		C62BD26CC473BA0A5BBB73DF34DC345F /* Pods_ISJMuDaoModule_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ISJMuDaoModule_Tests.framework; path = "Pods-ISJMuDaoModule_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D713F1C99F559249B8769C5B14831826 /* ISJMuDaoModule.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ISJMuDaoModule.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		DB6D39E1381400979DEFEA799CCBFB2F /* Pods-ISJMuDaoModule_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ISJMuDaoModule_Tests-Info.plist"; sourceTree = "<group>"; };
-		E43CBFBE9E6C14627461C202AC053E92 /* ISJMuDaoModule.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = ISJMuDaoModule.podspec; sourceTree = "<group>"; tabWidth = 2; };
-		F031B1FD46D8D0D8CC2FBFC8448F2650 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = ISJMuDaoModule/Classes/ReplaceMe.m; sourceTree = "<group>"; };
-		F0E471A9F47EC6A71FB127ACBEB0A697 /* Pods-ISJMuDaoModule_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ISJMuDaoModule_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F76601C1B74A99600775FB03A728A30B /* ISJMuDaoModule-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ISJMuDaoModule-prefix.pch"; sourceTree = "<group>"; };
+		DE63FC668BC8A0AC70CAA6642708738A /* Pods-ISJMuDaoModule_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ISJMuDaoModule_Example-dummy.m"; sourceTree = "<group>"; };
+		E1EF8D3AC7853FF766D8ECB1D9709469 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		E672A6E4B24FD498061AC89902C04157 /* FanbeiCreditSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FanbeiCreditSDK.framework; path = ISJMuDaoModule/Classes/FanbeiCreditSDK.framework; sourceTree = "<group>"; };
+		F1CD5016313EFD19827846A7F56F73B5 /* Pods-ISJMuDaoModule_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ISJMuDaoModule_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		FD39CDDBC15EDAE2215619145A96648E /* Pods-ISJMuDaoModule_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ISJMuDaoModule_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		FEDC7B42A0DB21EE2E84D65BF767E464 /* Pods-ISJMuDaoModule_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ISJMuDaoModule_Example-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0E9DCE7CE67B15A939C5D3BDF74155FB /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2B8EB4DE2B02414D85DEA68CB51502F5 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		2CF407B37AB9F8A98D0DAB35BD265688 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -99,83 +94,61 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1D796BE8631E322D919CF67AEC7E2F60 /* Products */ = {
+		60988C494C3E8B56B1E0303192FF120D /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				9C86784E61D41F4D3837159EEE3E13E4 /* ISJMuDaoModule.framework */,
+				D713F1C99F559249B8769C5B14831826 /* ISJMuDaoModule.podspec */,
+				B2E4AB862D4613B51BBEB95479E10F71 /* LICENSE */,
+				E1EF8D3AC7853FF766D8ECB1D9709469 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		7172A99A30E3E445BD6382A7EC8CBC7A /* Products */ = {
+			isa = PBXGroup;
+			children = (
 				2754EBBE291FDB4D14939B5B788BB161 /* Pods_ISJMuDaoModule_Example.framework */,
 				C62BD26CC473BA0A5BBB73DF34DC345F /* Pods_ISJMuDaoModule_Tests.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		259C8AD72B4A6B1FD89EA5F8E0A4B773 /* Support Files */ = {
+		8BF2E73F6D04B35939DA3490BCC2A42D /* ISJMuDaoModule */ = {
 			isa = PBXGroup;
 			children = (
-				55513AE684F5E10CA80DF2DA22EA0246 /* ISJMuDaoModule.modulemap */,
-				52C4C371ECDE45A2BE911E708E2EC1FE /* ISJMuDaoModule.xcconfig */,
-				C95BFAAA8F1636D4DDB6FD1A456855DB /* ISJMuDaoModule-dummy.m */,
-				783A1058E3842EC67E182B6D9518B6A9 /* ISJMuDaoModule-Info.plist */,
-				F76601C1B74A99600775FB03A728A30B /* ISJMuDaoModule-prefix.pch */,
-				964B602311741E97DBF6CBB33476E619 /* ISJMuDaoModule-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/ISJMuDaoModule";
-			sourceTree = "<group>";
-		};
-		28BD4E680D99EA699811DD317403AE62 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				E43CBFBE9E6C14627461C202AC053E92 /* ISJMuDaoModule.podspec */,
-				210F02E9AB1AEFAEB259994EFE825E33 /* LICENSE */,
-				980664A07CE583AE1FCA73468BE0015E /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		447EC61B4627C6AEADE9AC884C267BFF /* Pods-ISJMuDaoModule_Example */ = {
-			isa = PBXGroup;
-			children = (
-				18E4CB94C2B240BD2E03200AC18C34E8 /* Pods-ISJMuDaoModule_Example.modulemap */,
-				F0E471A9F47EC6A71FB127ACBEB0A697 /* Pods-ISJMuDaoModule_Example-acknowledgements.markdown */,
-				74969FC508FE48C9261C7D924AF4DF35 /* Pods-ISJMuDaoModule_Example-acknowledgements.plist */,
-				5000C5D54AE5756A62E72DAADF4B4B0F /* Pods-ISJMuDaoModule_Example-dummy.m */,
-				A3F5119DAB46FC2F379CFDD64743EA99 /* Pods-ISJMuDaoModule_Example-frameworks.sh */,
-				579305D57EB610F5F42A896A5FF4E826 /* Pods-ISJMuDaoModule_Example-Info.plist */,
-				C3379E741718A2110F6D17B011AA9BE3 /* Pods-ISJMuDaoModule_Example-umbrella.h */,
-				1A43C6D8985C4FD0E3BB67DF590B15E2 /* Pods-ISJMuDaoModule_Example.debug.xcconfig */,
-				A7C60CF2D11427731536CEF3853AD11E /* Pods-ISJMuDaoModule_Example.release.xcconfig */,
-			);
-			name = "Pods-ISJMuDaoModule_Example";
-			path = "Target Support Files/Pods-ISJMuDaoModule_Example";
-			sourceTree = "<group>";
-		};
-		978B759E7AA8BA2DF45843C3F687DC63 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				447EC61B4627C6AEADE9AC884C267BFF /* Pods-ISJMuDaoModule_Example */,
-				C180EB3B4995C2D6AEA30F9CF5E8BA2F /* Pods-ISJMuDaoModule_Tests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		9C4517056B24DD2DF1936F3C6F19F821 /* ISJMuDaoModule */ = {
-			isa = PBXGroup;
-			children = (
-				F031B1FD46D8D0D8CC2FBFC8448F2650 /* ReplaceMe.m */,
-				28BD4E680D99EA699811DD317403AE62 /* Pod */,
-				259C8AD72B4A6B1FD89EA5F8E0A4B773 /* Support Files */,
+				EA10354E4A614D9D609003B7F5829E70 /* Frameworks */,
+				60988C494C3E8B56B1E0303192FF120D /* Pod */,
+				BF1895055AD07FB8FD97A490968D6C06 /* Resources */,
+				A2B2985846C97457DA49CCB1D8A609D8 /* Support Files */,
 			);
 			name = ISJMuDaoModule;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		BC41EE9735268F725CC4A606490D8FC2 /* Development Pods */ = {
+		978B759E7AA8BA2DF45843C3F687DC63 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				9C4517056B24DD2DF1936F3C6F19F821 /* ISJMuDaoModule */,
+				C5040D34EFC97FCC63A8E061F7351BD0 /* Pods-ISJMuDaoModule_Example */,
+				C180EB3B4995C2D6AEA30F9CF5E8BA2F /* Pods-ISJMuDaoModule_Tests */,
 			);
-			name = "Development Pods";
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A2B2985846C97457DA49CCB1D8A609D8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3EB1C3DEB9D5FEEFD7366550AD77F8F2 /* ISJMuDaoModule.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ISJMuDaoModule";
+			sourceTree = "<group>";
+		};
+		BF1895055AD07FB8FD97A490968D6C06 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				93CDDA2885503E1CEA1E23588F6D418A /* FanbeiCreditSDKResource.bundle */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -202,13 +175,38 @@
 			path = "Target Support Files/Pods-ISJMuDaoModule_Tests";
 			sourceTree = "<group>";
 		};
+		C5040D34EFC97FCC63A8E061F7351BD0 /* Pods-ISJMuDaoModule_Example */ = {
+			isa = PBXGroup;
+			children = (
+				3FAEE843A4D6CB018FF8CAEC3EE91061 /* Pods-ISJMuDaoModule_Example.modulemap */,
+				ACFCA28D412917130AAA5E90F0B7E7E5 /* Pods-ISJMuDaoModule_Example-acknowledgements.markdown */,
+				F1CD5016313EFD19827846A7F56F73B5 /* Pods-ISJMuDaoModule_Example-acknowledgements.plist */,
+				DE63FC668BC8A0AC70CAA6642708738A /* Pods-ISJMuDaoModule_Example-dummy.m */,
+				FEDC7B42A0DB21EE2E84D65BF767E464 /* Pods-ISJMuDaoModule_Example-Info.plist */,
+				206D575D40854C6BF37EA2B2D7D05C59 /* Pods-ISJMuDaoModule_Example-resources.sh */,
+				A5C562B7146C1CD4D9EEB5340831D5CC /* Pods-ISJMuDaoModule_Example-umbrella.h */,
+				FD39CDDBC15EDAE2215619145A96648E /* Pods-ISJMuDaoModule_Example.debug.xcconfig */,
+				7630A6246B1174F627F37CD0E44F9E26 /* Pods-ISJMuDaoModule_Example.release.xcconfig */,
+			);
+			name = "Pods-ISJMuDaoModule_Example";
+			path = "Target Support Files/Pods-ISJMuDaoModule_Example";
+			sourceTree = "<group>";
+		};
+		C8CC5AF7A85B00D2F6D2D2AFE68DFBDA /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8BF2E73F6D04B35939DA3490BCC2A42D /* ISJMuDaoModule */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				BC41EE9735268F725CC4A606490D8FC2 /* Development Pods */,
+				C8CC5AF7A85B00D2F6D2D2AFE68DFBDA /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				1D796BE8631E322D919CF67AEC7E2F60 /* Products */,
+				7172A99A30E3E445BD6382A7EC8CBC7A /* Products */,
 				978B759E7AA8BA2DF45843C3F687DC63 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -217,6 +215,14 @@
 			isa = PBXGroup;
 			children = (
 				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EA10354E4A614D9D609003B7F5829E70 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E672A6E4B24FD498061AC89902C04157 /* FanbeiCreditSDK.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -237,14 +243,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				07A0817141E7AE6CCD772E4DE5B712C0 /* Pods-ISJMuDaoModule_Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BE04DEC607FAEE08223886ACA8EB6D43 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				769ED83EE7F57E2F73CC2AF7D164F303 /* ISJMuDaoModule-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,24 +287,6 @@
 			productReference = C62BD26CC473BA0A5BBB73DF34DC345F /* Pods_ISJMuDaoModule_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		B2A3E44DCE1F1F8E42B8F95F032205EF /* ISJMuDaoModule */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = FF6D162635E3C8CBA73123551486C984 /* Build configuration list for PBXNativeTarget "ISJMuDaoModule" */;
-			buildPhases = (
-				BE04DEC607FAEE08223886ACA8EB6D43 /* Headers */,
-				626260ADDEF8B297C0867DCC68522E99 /* Sources */,
-				0E9DCE7CE67B15A939C5D3BDF74155FB /* Frameworks */,
-				9F964BA31454ADEB48B21F260710CC88 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = ISJMuDaoModule;
-			productName = ISJMuDaoModule;
-			productReference = 9C86784E61D41F4D3837159EEE3E13E4 /* ISJMuDaoModule.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -324,7 +304,7 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 1D796BE8631E322D919CF67AEC7E2F60 /* Products */;
+			productRefGroup = 7172A99A30E3E445BD6382A7EC8CBC7A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -336,13 +316,6 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		9F964BA31454ADEB48B21F260710CC88 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		CDBBBC727C472E4FF599788A666571EC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -365,15 +338,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				7C95D8975B38C19F9724932DD83B2FEB /* Pods-ISJMuDaoModule_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		626260ADDEF8B297C0867DCC68522E99 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				309FE5B87186F46F02E45DB9704CAF83 /* ISJMuDaoModule-dummy.m in Sources */,
-				D5882DDFAE064B085A64BB2572FD04FC /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,7 +403,7 @@
 		};
 		37D96F45ED616A18BEA811FEB3DEF0FA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A7C60CF2D11427731536CEF3853AD11E /* Pods-ISJMuDaoModule_Example.release.xcconfig */;
+			baseConfigurationReference = 7630A6246B1174F627F37CD0E44F9E26 /* Pods-ISJMuDaoModule_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -470,37 +434,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		49AAEF4D6D3638E4666A0437BBFF4CC9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 52C4C371ECDE45A2BE911E708E2EC1FE /* ISJMuDaoModule.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ISJMuDaoModule/ISJMuDaoModule-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ISJMuDaoModule/ISJMuDaoModule-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ISJMuDaoModule/ISJMuDaoModule.modulemap";
-				PRODUCT_MODULE_NAME = ISJMuDaoModule;
-				PRODUCT_NAME = ISJMuDaoModule;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -555,11 +488,25 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
+		};
+		4DEBC0B68B3EBE82DF51325ABCDED787 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EB1C3DEB9D5FEEFD7366550AD77F8F2 /* ISJMuDaoModule.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
 		};
 		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -625,6 +572,20 @@
 			};
 			name = Debug;
 		};
+		85A527D6DA1DD046107F389F9F67C748 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EB1C3DEB9D5FEEFD7366550AD77F8F2 /* ISJMuDaoModule.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		8A9220A7042F5D491CC4F2490593BD83 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7AB43DEE2A1B887D9D69F9214EADEB1F /* Pods-ISJMuDaoModule_Tests.debug.xcconfig */;
@@ -660,7 +621,7 @@
 		};
 		B411FF2CA73B4452A4E2FEDEE8B47A30 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1A43C6D8985C4FD0E3BB67DF590B15E2 /* Pods-ISJMuDaoModule_Example.debug.xcconfig */;
+			baseConfigurationReference = FD39CDDBC15EDAE2215619145A96648E /* Pods-ISJMuDaoModule_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -691,38 +652,6 @@
 			};
 			name = Debug;
 		};
-		D845CF63A707FD56E1EEEE5DACFCAA8E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 52C4C371ECDE45A2BE911E708E2EC1FE /* ISJMuDaoModule.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ISJMuDaoModule/ISJMuDaoModule-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ISJMuDaoModule/ISJMuDaoModule-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ISJMuDaoModule/ISJMuDaoModule.modulemap";
-				PRODUCT_MODULE_NAME = ISJMuDaoModule;
-				PRODUCT_NAME = ISJMuDaoModule;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -744,20 +673,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		F092D9175E9A98C56E1FB11AEF66336F /* Build configuration list for PBXAggregateTarget "ISJMuDaoModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DEBC0B68B3EBE82DF51325ABCDED787 /* Debug */,
+				85A527D6DA1DD046107F389F9F67C748 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		F3C37054B438482A7961A388C0666912 /* Build configuration list for PBXNativeTarget "Pods-ISJMuDaoModule_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B411FF2CA73B4452A4E2FEDEE8B47A30 /* Debug */,
 				37D96F45ED616A18BEA811FEB3DEF0FA /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		FF6D162635E3C8CBA73123551486C984 /* Build configuration list for PBXNativeTarget "ISJMuDaoModule" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				49AAEF4D6D3638E4666A0437BBFF4CC9 /* Debug */,
-				D845CF63A707FD56E1EEEE5DACFCAA8E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
